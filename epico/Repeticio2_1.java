@@ -13,7 +13,7 @@ public class Repeticio2_1 {
         
         while (victoria != 1) { 
             int num1 = generador.nextInt(3);
-            System.out.println("Digues un nombre entre el 0 i el 2 (0 = pedra, 1 = paper, 2 = tisores)");
+            System.out.println("Digues un nombre compost entre els numeros 0 i  2 (0 = pedra, 1 = paper, 2 = tisores)");
             int num2 = input.nextInt();
             System.out.print("Numero del ordinador: ");
             System.out.println(num1);  
@@ -29,7 +29,7 @@ public class Repeticio2_1 {
                 punts_jug++;
             }
             else if (num1 == 0 && num2 == 2) {
-                System.out.println("Ordinador ha tret pedra i guanya contra les tisores del jugador");
+                System.out.println("L'ordinador ha tret pedra i guanya contra les tisores del jugador");
                 punts_ord++;
             }
             else if (num1 == 1 && num2 == 0) {
