@@ -10,7 +10,7 @@ public class Repeticio2_1 {
         int punts_ord = 0;
         
         int victoria = 0;
-        
+        // Aqui s'agafan els numeros del jugador (input) i de l'ordinador (random)
         while (victoria != 1) { 
             int num1 = generador.nextInt(3);
             System.out.println("Digues un nombre compost entre els numeros 0 i  2 (0 = pedra, 1 = paper, 2 = tisores)");
@@ -20,7 +20,7 @@ public class Repeticio2_1 {
             System.out.print("Numero del jugador: ");
             System.out.println(num2);
             System.out.println();
-
+            // Aqui surten tots els resultats possibles, es mes facil de fer perque els numeros son del 0 al 2
             if (num1 == 0 && num2 == 0) {
                 System.out.println("Empat per pedra.");
             }
